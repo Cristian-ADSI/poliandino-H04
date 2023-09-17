@@ -1,0 +1,99 @@
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.section__title {
+    color: $title-color;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.section__info {
+    font-weight: 500;
+    color: $text-color;
+    font-size: 22px;
+}
+
+.btn {
+
+    border-radius: 8px;
+    border: solid 2px $white;
+    background-color: $white;
+    transition: all ease .2s;
+
+    &__link {
+        color: $main-gray;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: all ease .2s;
+
+    }
+
+    &.btn__blue {
+
+        background-color: $main-blue;
+
+        .btn__link {
+            color: $white;
+        }
+    }
+
+    &.btn__blue:hover {
+        background-color: $main-blue-hover ;
+    }
+
+    &.btn__white-outline {
+
+        background-color: transparent;
+
+        .btn__link {
+            color: $white;
+        }
+    }
+
+    &.btn__white-outline:hover {
+        background-color: $white;
+
+        .btn__link {
+            color: $main-blue;
+        }
+    }
+
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: fixed; 
+    right: 20px;
+    bottom: 30px;
+
+    background-color: #3dd64f;
+    border: none;
+    border-radius: 8px;
+    box-shadow: $shadow;
+    height: 50px;
+    padding: 5px;
+    width: 50px;
+    z-index: 10;
+
+    i {
+        color: $white;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .container {
+        width: 90%;
+    }
+}

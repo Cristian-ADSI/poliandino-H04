@@ -1,0 +1,32 @@
+@import './utils/variables';
+
+@import './components/templates';
+@import './components/nav.scss';
+@import './components/hero';
+@import './components/footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $open-sans;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: $Poppins;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $Poppins;
+    text-decoration: none;
+}
