@@ -23,6 +23,9 @@
         margin-bottom: 50px;
 
         &__group {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
             padding: 20px;
             width: 50%;
         }
@@ -67,6 +70,11 @@
             height: 230px;
         }
 
+        .btn {
+            
+            align-self: center;
+        }
+
     }
 }
 
@@ -79,6 +87,7 @@
             padding: 0;
             margin-bottom: 50px;
         }
+
         .form {
             &__group {
                 padding: 20px;

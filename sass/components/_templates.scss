@@ -22,7 +22,12 @@
     border-radius: 8px;
     border: solid 2px $white;
     background-color: $white;
-    transition: all ease .2s;
+    color: $white;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
 
     &__link {
         color: $main-gray;
@@ -73,7 +78,7 @@
     justify-content: center;
 
 
-    position: fixed; 
+    position: fixed;
     right: 20px;
     bottom: 30px;
 
