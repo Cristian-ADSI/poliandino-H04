@@ -102,3 +102,25 @@
         width: 90%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .btn {
+
+        border-radius: 8px;
+        border: solid 2px $white;
+        background-color: $white;
+        color: $white;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px 10px;
+        text-transform: uppercase; 
+
+        &__link {
+           
+            font-size: 16px;
+            padding: 10px 15px;
+    
+        }
+    }
+}
