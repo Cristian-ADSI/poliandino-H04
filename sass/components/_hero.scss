@@ -49,6 +49,9 @@
 
 @media only screen and (max-width: 768px) {
     .hero-section {
+
+        padding: 20px 0;
+        height: auto;
         &__title {
             font-size: 45px;
             line-height: 45px;
